@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-header{
+    width: 100%;
+    background-color: black;
+    padding: 0 0.5rem;
+}
+.main-header_item-list{
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+}
+.main-header_item{
+   text-decoration: none;
+
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.main-header_item a:hover,
+.main-header_item a:active,
+.main-header_item a.active{
+    color: aquamarine;
+}
+main{
+    padding: 0.2rem 0.5rem;
+}
