@@ -14,7 +14,13 @@ flex-direction: column;
 
   .form-control {
     margin: 1rem 0;
+     display: flex;
+    justify-content: center;
+    flex-direction: column;
 
+  }
+  label{
+   
   }
   .form-control label{
     margin-left: 4rem;
